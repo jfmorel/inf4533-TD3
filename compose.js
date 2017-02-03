@@ -1,5 +1,5 @@
 var compose = function(f, g) {
-    return function (n) {
+    return function(n) {
         console.log(f(g(n)));
     };
 };
