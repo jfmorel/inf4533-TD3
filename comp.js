@@ -1,6 +1,6 @@
 var comp = function(fArray) {
     return function(n) {
-        fArray.forEach(function(f) {
+        fArray.map(function(f) {
             n = f(n);
         });
         return n;
